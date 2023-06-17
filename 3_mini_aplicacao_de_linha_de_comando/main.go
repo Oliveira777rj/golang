@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	app "linha-de-comando"
+		
 	"log"
 	"os"
 )
