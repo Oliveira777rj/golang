@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	conn := "root:Oliveira201&@/filmes_series?charset=utf8&parseTime=True&loc=Local"
+	conn := "root:&@/filmes_series?charset=utf8&parseTime=True&loc=Local"
 	db, erro := sql.Open("mysql", conn)
 
 	if erro != nil{
